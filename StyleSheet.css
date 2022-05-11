@@ -1,0 +1,93 @@
+﻿body
+{
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.charts{
+    margin: 0px;
+    font-size: 103%;
+}
+
+.Heading{
+display: block;
+color: blue;
+text-align: center;
+}
+
+.genres{
+    text-align: center;
+}
+
+.dropdown {
+    display: none;
+    position: relative;
+    cursor: pointer;
+    border: none;
+    background-color: grey;
+   margin-top: 0px;
+   
+}
+
+    .dropdown p:hover {
+        color: white;
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+        background-color: black;
+        transition: .2s;
+        margin-top: 0px;
+    }
+
+.music {
+    border: 1px solid black;
+    background-color: grey;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    
+}
+
+    .music:hover {
+        background-color: lightgrey;
+        cursor: pointer;
+        padding: 0px;
+        transition: 0.1s;
+        
+    }
+
+.music:hover .dropdown{
+    display: inline-block;   
+    min-width: 100%;
+    float: left;
+   height: 40px;
+}
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
